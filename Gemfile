@@ -48,6 +48,11 @@ gem 'active_link_to'
 
 gem 'profanity-filter', '~> 1.0'
 
+# uploading files feature
+gem 'carrierwave', '~> 2.0'
+gem 'mini_magick'
+gem 'rmagick'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
