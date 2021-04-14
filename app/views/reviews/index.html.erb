@@ -30,7 +30,7 @@
   <div class="review">
     <%= link_to review_path(review) do %>
 
-      <%= image_tag @review.photo_url.thumb %>
+      <%= image_tag (review.photo_url(:thumb)) if review.photo_url %>
 
       <h2><%= review.title %></h2>
       <p>
